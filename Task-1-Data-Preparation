@@ -1,0 +1,71 @@
+# Task 1: Data Preparation using Power BI
+
+## 1. Project Overview
+This task is part of my internship at **SWYNEX Technologies**.
+
+The objective of this task is to prepare and clean the Superstore Sales dataset using Microsoft Power BI and Power Query Editor.
+
+## 2. Tools Used
+- Microsoft Power BI Desktop
+- Power Query Editor
+- CSV Dataset
+
+## 3. Dataset Information
+- Dataset Name: Superstore Sales
+- Original Columns: 21
+- Valid Records: 9,994
+- Malformed Records Removed: 806
+
+## 4. Data Preparation Steps
+
+### Step 1: Import Dataset
+Imported the `superstore_sales.csv` dataset into Power BI using Get Data → Text/CSV and opened it in Power Query Editor.
+
+### Step 2: Remove Malformed Records
+Identified and removed 806 unrelated appended records, retaining 9,994 valid sales transaction records.
+
+### Step 3: Handle Missing Values
+- Identified 11 missing values in the Postal Code column.
+- Retained missing Postal Codes as null.
+- Checked other columns for missing values.
+
+### Step 4: Remove Duplicate Records
+Checked all 21 columns and verified that there were no exact duplicate records among the valid transactions.
+
+### Step 5: Change Data Types
+Assigned appropriate data types to the columns:
+- Row ID – Whole Number
+- Order ID – Text
+- Order Date – Date
+- Ship Date – Date
+- Customer ID – Text
+- Sales – Decimal Number
+- Quantity – Whole Number
+- Discount – Decimal Number
+- Profit – Decimal Number
+
+### Step 6: Standardize Text Values
+Applied Trim and Clean transformations to remove unnecessary spaces and non-printable characters.
+
+### Step 7: Data Validation
+- Verified 9,994 records.
+- Verified 21 columns.
+- Checked data types.
+- Checked missing values and errors.
+- Validated the cleaned dataset.
+
+### Step 8: Load Cleaned Data
+Used Close & Apply to load the cleaned dataset into Power BI.
+
+Renamed the table to `Superstore_Sales`.
+
+## 5. Project Outcome
+Successfully completed the data preparation and cleaning process using Microsoft Power BI.
+
+The cleaned dataset is ready for further data modeling, DAX calculations and interactive dashboard development.
+
+## 6. Internship Details
+- **Company:** SWYNEX Technologies
+- **Task:** Task 1 – Data Preparation
+- **Tool:** Microsoft Power BI
+- **Author:** Deekshidha

@@ -1,0 +1,80 @@
+# Task 3 – Interactive Dashboard Development using Power BI
+
+## 1. Project Overview
+
+This task is part of my internship at **SWYNEX Technologies**.
+
+The objective of this task is to develop an interactive Superstore Sales Performance Dashboard using Microsoft Power BI to analyze business performance and sales trends.
+
+## 2. Tools Used
+- Microsoft Power BI Desktop
+- Power Query Editor
+- DAX (Data Analysis Expressions)
+
+## 3. Dashboard Development
+
+Created an interactive dashboard using the Superstore Sales dataset.
+
+### Step 1: KPI Cards
+
+Created four KPI cards to display important business metrics:
+
+- Total Sales
+- Total Profit
+- Profit Margin
+- Total Quantity
+
+### Step 2: Sales Analysis Visualizations
+
+Developed the following charts:
+
+1. Total Sales by Category – Column Chart
+2. Sales by Customer Segments – Bar Chart
+3. Total Sales by Region – Donut Chart
+4. Sales Distribution by State – Pie Chart
+5. Monthly Sales Trend – Line Chart
+6. Total Sales by Sub-Category – Bar Chart
+
+### Step 3: Interactive Slicers
+
+Added slicers to make the dashboard interactive:
+
+- Date
+- Category
+- Region
+
+These slicers allow users to filter and explore sales performance across different dimensions.
+
+## 4. Dashboard Features
+
+- Interactive data filtering
+- KPI-based performance monitoring
+- Category-wise sales analysis
+- Regional sales comparison
+- Customer segment analysis
+- Monthly sales trend analysis
+- State-wise sales distribution
+- Sub-category performance analysis
+
+## 5. Key Learning Outcomes
+
+- Understanding Power BI visualizations.
+- Creating KPI cards.
+- Working with different chart types.
+- Implementing interactive slicers.
+- Analyzing sales and profit performance.
+- Designing an interactive business dashboard.
+
+## 6. Project Outcome
+
+Successfully developed an interactive Superstore Sales Performance Dashboard using Microsoft Power BI.
+
+The dashboard provides insights into sales, profit, customer segments, regions, product categories and monthly sales trends.
+
+## 7. Internship Details
+
+- **Company:** SWYNEX Technologies
+- **Task:** Task 3 – Interactive Dashboard Development
+- **Tool:** Microsoft Power BI
+- **Dataset:** Superstore Sales
+- **Author:** Deekshidha
